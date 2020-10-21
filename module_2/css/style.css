@@ -8,13 +8,17 @@ body h1 {
   text-align: center;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 p {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
-  padding: 60px 20px 20px 20px;
+  padding: 15px;
 }
 
 /* Simple Responsive Framework. */
@@ -24,8 +28,8 @@ p {
 
 .top-right {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -1px;
+  right: -1px;
   width: 40%;
   text-align: center;
   padding: 0px;
@@ -53,7 +57,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 3px solid black;
+    border: 1px solid black;
     position: relative;
   }
   .col-lg-1 {
@@ -109,7 +113,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 3px solid black;
+    border: 1px solid black;
     position: relative;
   }
   .col-md-1 {
@@ -165,7 +169,7 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 3px solid black;
+    border: 1px solid black;
     position: relative;
   }
   .col-sm-1 {
